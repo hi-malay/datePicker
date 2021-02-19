@@ -21,9 +21,9 @@ all the time ranges during which they were active on that day, with an option to
 periods of activity for different days using a calendar.
 
 ## Steps:
-1. List the users dynamically
-2. Select any one user from list
-3. From User it'll display activity records
+1. Dynamic User List
+2. Select any one user from list to open modal
+3. From User it'll display activity records inside modal
     - Month -Date- year-  time ranges: start time - end time
-4.  Now you can select a calender date to check weather the user is present or not 
+4. Select a calender date to check weather the user is present or not
 
