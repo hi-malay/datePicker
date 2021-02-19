@@ -25,5 +25,5 @@ periods of activity for different days using a calendar.
 2. Select any one user from list
 3. From User it'll display activity records
     - Month -Date- year-  time ranges: start time - end time
-4.  Now you can select a caleder date to check weather the user is present or not 
+4.  Now you can select a calender date to check weather the user is present or not 
 
