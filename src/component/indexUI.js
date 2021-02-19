@@ -3,6 +3,7 @@ import Button from '@material-ui/core/Button';
 import Dialog from '@material-ui/core/Dialog';
 import DialogActions from '@material-ui/core/DialogActions';
 import DatePicker from "react-datepicker";
+// this have the whole UI of page
 
 class IndexUI extends Component {
 
@@ -11,7 +12,9 @@ class IndexUI extends Component {
     }
 
     render() {
+
         const { user_data, api_fail, date_match, date_match_modal, matched_date, api_error, open_modal, errorValid, current_data, selected_date } = this.props.dynamicData.state
+
         return (
             <div>
                 <h1 className="heading-title">Full Throttle</h1>

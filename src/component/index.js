@@ -3,10 +3,10 @@ import "./style.css"
 import "axios"
 import axios from 'axios';
 
-import "react-datepicker/dist/react-datepicker.css";
 import IndexUI from "./indexUI"
 
 import { API } from "../constants/constant"
+// this only have the functionality of page
 
 class Index extends Component {
     constructor() {
@@ -50,15 +50,18 @@ class Index extends Component {
 
     findDate = () => {
         this.setState({ date_match_modal: true, date_match: false })
+        //Validation of date
         if (this.state.selected_date === "") {
             this.setState({ errorValid: true })
             return;
         }
         const CurDate = this.state.selected_date
+        //input converting date to string
         const ConvertingDateToString = CurDate.getDate() + "-" + (CurDate.getMonth() + 1) + "-" + CurDate.getFullYear()
         this.state.current_data.activity_periods.map((d) => {
             const splitArry = d.start_time.split('  ')
             const NewDate = new Date(splitArry[0]);
+            //converting date to string from api
             const NewDateString = NewDate.getDate() + "-" + (NewDate.getMonth() + 1) + "-" + NewDate.getFullYear()
 
             if (ConvertingDateToString === NewDateString) {
