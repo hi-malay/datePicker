@@ -4,9 +4,10 @@ Demo link: "https://hi-malay.github.io/datePicker/"
 
 
 ## Steps to run this repo:
-1. git clone git clone 
-2. cd FullThrottle_Labs
+1. git clone link 
+2. cd datePicker
 3. npm install
+4. npm start
 
 Json File: https://raw.githubusercontent.com/mjroidu/Dummy-Data/master/DummyJson
 
