@@ -1,0 +1,120 @@
+.main-div {
+    padding: 40px;
+}
+
+.child-div {
+    background: #FFFFFF;
+    /* box-shadow: 0px 5px 30px rgba(112, 136, 210, 0.2); */
+    border-radius: 20px;
+    border: 1px solid #B1B1B1;
+    padding: 20px;
+    max-width: 500px;
+    margin: 0 auto;
+    cursor: pointer;
+    margin-top: 30px;
+}
+
+.child-div:hover,
+.child-div:focus {
+    box-shadow: 0px 25px 30px rgba(112, 136, 210, 0.2);
+}
+
+.heading-title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 58px;
+    /* identical to box height */
+    color: #00B464;
+}
+
+.modal-title {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
+    text-align: center;
+    color: #212B36;
+}
+
+.modal-subtitle {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 28px;
+    /* identical to box height, or 200% */
+    text-align: center;
+    color: #014077;
+}
+
+.MuiDialog-paperWidthSm {
+    max-width: 650px !important;
+    width: 100% !important;
+    border-radius: 20px !important;
+}
+
+.modal-subtitle2 {
+
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    /* or 171% */
+    text-align: center;
+    color: #212B36;
+
+}
+
+.react-datepicker-ignore-onclickoutside {
+    padding: 14px;
+}
+
+.react-datepicker__input-container input {
+    padding: 14px;
+}
+
+.divider {
+    height: 12px;
+    width: 3px;
+    background: #014077;
+    border-radius: 1.5px;
+}
+
+.date-styling {
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+.btn-class.MuiButton-root {
+    font-family: "Roboto", sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    min-width: 150px;
+    min-height: 44px;
+    border-radius: 28px;
+    background-color: #00b464 !important;
+    color: #ffffff;
+    box-shadow: unset;
+    text-transform: none;
+}
+
+.btn-class.MuiButton-root :hover {
+    box-shadow: unset;
+}
+
+.invalid-error {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 24px;
+    /* or 171% */
+    text-align: center;
+    color: red;
+}
+
+.footer {
+    bottom: 0px;
+    position: absolute;
+}
