@@ -24,7 +24,8 @@ class Index extends Component {
             selected_date: new Date(),
             errorValid: false,
             date_match: false,
-            date_match_modal: false
+            date_match_modal: false,
+            matched_date: ""
         }
     }
 
@@ -68,14 +69,14 @@ class Index extends Component {
             const NewDateString = NewDate.getDate() + "-" + (NewDate.getMonth() + 1) + "-" + NewDate.getFullYear()
 
             if (ConvertingDateToString === NewDateString) {
-                this.setState({ date_match: true, date_match_modal: true })
+                this.setState({ date_match: true, date_match_modal: true, matched_date: NewDateString })
             }
 
         })
 
     }
     render() {
-        const { user_data, api_fail, date_match, date_match_modal, api_error, open_modal, errorValid, current_data, selected_date } = this.state
+        const { user_data, api_fail, date_match, date_match_modal, matched_date, api_error, open_modal, errorValid, current_data, selected_date } = this.state
         console.log("hi", current_data.activity_periods)
         return (
             <div className="main-div">
@@ -141,6 +142,9 @@ class Index extends Component {
                                     <h3 className="modal-title">Its a Match</h3>
                                     <h3 className="modal-subtitle"> Name: {current_data.real_name}</h3>
                                     <h3 className="modal-subtitle"> Location: {current_data.tz}</h3>
+                                    <h3 className="modal-subtitle"> Date and Time: {matched_date}</h3>
+
+
                                 </> :
                                 <>
                                     <h3 className="modal-title">Oops! your date didn't matched'</h3>
