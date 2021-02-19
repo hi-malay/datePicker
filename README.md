@@ -1,14 +1,14 @@
-   Full Throttle Labs Assignment
+## Full Throttle Labs Assignment
 
-Demo link: "
+Demo link: "https://hi-malay.github.io/datePicker/"
 
 
-#Steps to run this repo:
+## Steps to run this repo:
 1. git clone git clone 
 2. cd FullThrottle_Labs
 3. npm install
 
-JASON File: https://raw.githubusercontent.com/mjroidu/Dummy-Data/master/DummyJson
+Json File: https://raw.githubusercontent.com/mjroidu/Dummy-Data/master/DummyJson
 
 This JSON file describes a list of users & their corresponding periods of activity across
 multiple months. You’ll need to extrapolate this json sample to get a JSON sample for
@@ -19,7 +19,7 @@ users from a mock API server. On clicking on any user, a modal should open which
 all the time ranges during which they were active on that day, with an option to view all the
 periods of activity for different days using a calendar.
 
-Steps:
+## Steps:
 1. List the users dynamically
 2. Select any one user from list
 3. From User it'll display activity records
