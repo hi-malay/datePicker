@@ -1,4 +1,4 @@
-## Full Throttle Labs Assignment
+## Date Picker
 
 Demo link: "https://hi-malay.github.io/datePicker/"
 
